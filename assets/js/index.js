@@ -31,5 +31,16 @@ $(document).ready(function() {
 
 	console.log(order(12345));
 
+//question three
+
+	function fibonacci(num){
+	    for(var fibArray = [0,1], a=0,b=1,c=0; c<num; a=b, b=d, c++){
+	        d = a + b;
+	        fibArray.push(d);
+	    };
+	    console.log(fibArray);
+	};
+
+	fibonacci(15);
 
 });
