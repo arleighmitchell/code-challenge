@@ -19,9 +19,17 @@ $(document).ready(function() {
 
 //question two
 
-	
+	function order(num) {
+		var arrayOne = (""+num).split('');
+		var arrayTwo = [];
+		
+		for (i = arrayOne.length - 1; i >= 0; i--){
+			arrayTwo[i] = parseInt(arrayOne.shift(), 10);
+		};
+		return arrayTwo;
+	};
 
-
+	console.log(order(12345));
 
 
 });
